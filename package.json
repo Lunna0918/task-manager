@@ -1,0 +1,24 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "任务管理系统 · React + Vite 前端 + Vercel Serverless API + Supabase",
+  "scripts": {
+    "dev": "vite",
+    "dev:api": "node dev-server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "vite": "^5.4.2"
+  }
+}
